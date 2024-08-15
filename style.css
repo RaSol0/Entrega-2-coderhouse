@@ -1,0 +1,223 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+body {
+    background-color: #121212; 
+    color: #FCDCBB; 
+}
+h2 {
+    color: #FCDCBB; 
+    font-size: 2.5rem; 
+    margin-bottom: 1.5rem; 
+    text-align: center; 
+}
+
+h3 {
+    color: #FCDCBB;
+    font-size: 1.5rem; 
+    text-align: center;
+    margin-bottom: 0.5rem;
+    
+}
+
+.logo-reducido {
+    height: 22px;
+    width: auto;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-link {
+    position: relative;
+    color: #FCDCBB; 
+}
+.navbar-nav .nav-link {
+    color: #FCDCBB !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #FCDCBB;
+    bottom: -5px;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 100%;
+}
+.hero-section {
+    height: 75vh; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212; 
+}
+#band-members img {
+    width: 100%; 
+    height: auto; 
+    max-width: 150px; 
+    border-radius: 0;
+    border: none;
+    margin: auto; 
+    display: block; 
+}
+
+#band-members .col-md-4 {
+    text-align: center;
+}
+
+#band-members p, #band-members h3 {
+    color: #FCDCBB; 
+    text-align: justify; 
+}
+
+.new-album-section {
+    height: 50vh; 
+    background-image: url('assets/img/lanzamientos.png');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #FCDCBB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.new-album-section h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.new-album-section p {
+    font-size: 1.0rem;
+    margin-bottom: 2rem;
+}
+
+.new-album-section .btn {
+    background-color: #000000;
+    color: #FCDCBB;
+}
+.btn-custom {
+    background-color: transparent;
+    color: #FCDCBB;
+    border: 2px solid #FCDCBB; 
+    padding: 10px 20px;
+    font-size: 1.2rem; 
+    text-transform: uppercase; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #FCDCBB;
+    color: #000;
+}
+
+#tour {
+    background-color: #1c1c1c; 
+    color: #fff; 
+}
+
+#tour h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+#tour .card {
+    background-color: #121212; 
+    border: none; 
+    color: #FCDCBB;
+}
+
+.video-section {
+    background-color: #121212; 
+    color: #fff;
+}
+
+.video-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #FCDCBB;
+}
+
+.video-section p {
+    color: #bbb; 
+}
+.merch-section {
+    background-color: #1c1c1c; 
+}
+
+.btn-custom {
+    background-color: transparent; 
+    color: #FCDCBB; 
+    border: 2px solid #FCDCBB; 
+    padding: 10px 20px; 
+    font-size: 1.2rem;
+    text-transform: uppercase; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #FCDCBB; 
+    color: #000; 
+}
+
+.footer {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-lines .line-top, .footer-lines .line-bottom {
+    height: 4px;
+    background-color: #FCDCBB;
+    opacity: 1;
+    margin: 0;
+}
+
+.footer-lines .line-top {
+    margin-bottom: 8px;
+}
+
+.footer .list-unstyled a {
+    color: #FCDCBB;
+    text-decoration: none;
+}
+
+.footer .list-unstyled a:hover {
+    text-decoration: underline;
+}
+
+.footer img {
+
+    max-width: 120px
+}
+
+.footer p {
+    margin: 0;
+}
+.footer .logo-center {
+    margin: 0 auto; 
+    display: block;
+}
+
